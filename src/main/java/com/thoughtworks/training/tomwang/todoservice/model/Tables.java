@@ -1,5 +1,7 @@
 package com.thoughtworks.training.tomwang.todoservice.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -11,5 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Tables {
     private String id;
-    private String todo;
+    private String text;
+
+
 }
