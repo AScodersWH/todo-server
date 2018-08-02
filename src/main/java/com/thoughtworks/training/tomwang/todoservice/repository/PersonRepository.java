@@ -10,8 +10,7 @@ import java.util.List;
 public class PersonRepository {
     public List<Person> list(){
         return ImmutableList.of(
-             new Person("TomWang","708"),
-             new Person("ellen","708")
+
         );
     }
 }
