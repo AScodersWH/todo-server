@@ -23,7 +23,12 @@ public class TablesController {
 
         return tablesService.generateTable();
     }
-
+//
+//    @RequestMapping(method = RequestMethod.GET, path = "/tables")
+//    public Tables find(Integer id) {
+//
+//        return tablesService.find(id);
+//    }
     @RequestMapping(method = RequestMethod.DELETE, path = "/tables/{id}")
     public void deleteTables(@PathVariable int id) {
         tablesService.deleteTable(id);

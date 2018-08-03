@@ -15,8 +15,11 @@ public class TablesService {
     public List<Tables> generateTable() {
         List<Tables> tables = tablesRepository.findAll();
         return tables;
-
     }
+//    public Tables find(Integer id){
+//        Tables tables = tablesRepository.findOne(id);
+//        return tables;
+//    }
 
 
     public void createTable(Tables tables) {
